@@ -2,6 +2,6 @@
 // .mjs --> para usar ES Modules
 // .cjs --> para usar CommonJS
 
-import { sum } from "./sum.mjs";
+import { sum } from './sum.mjs'
 
-console.log(sum(1, 2));
+console.log(sum(1, 2))

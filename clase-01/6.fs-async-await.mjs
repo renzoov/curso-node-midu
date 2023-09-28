@@ -1,12 +1,12 @@
-import { readFile } from "node:fs/promises";
+import { readFile } from 'node:fs/promises'
 
-console.log("Leyendo el primer archivo");
-const text = await readFile("./archivo.txt", "utf8");
-console.log("primer texto:", text);
+console.log('Leyendo el primer archivo')
+const text = await readFile('./archivo.txt', 'utf8')
+console.log('primer texto:', text)
 
-console.log("Hacer otra cosa mientras lee el primer archivo");
+console.log('Hacer otra cosa mientras lee el primer archivo')
 
-console.log("Leyendo el segundo archivo");
-const secondText = await readFile("./archivo2.txt", "utf-8");
+console.log('Leyendo el segundo archivo')
+const secondText = await readFile('./archivo2.txt', 'utf-8')
 
-console.log("segundo texto:", secondText);
+console.log('segundo texto:', secondText)
